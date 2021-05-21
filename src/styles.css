@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(35, 32, 36);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Times New Roman', Times, serif, monospace;
+}
+
+.frame {
+    display: grid;
+    grid-template-columns: auto 300px;
+}
+
+.menu {
+    overflow: auto;
+    padding: 20px;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.menu-item {
+    background-color: rgb(128, 124, 50);
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+}
+
+.sidebar {
+    background-color: rgb(68, 52, 52);
+    display: grid;
+    grid-template-rows: 80px auto 100px 100px;
+    height: 100vh;
+}
+
+.cards{
+
+}
